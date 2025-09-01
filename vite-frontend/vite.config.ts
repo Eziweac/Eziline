@@ -6,7 +6,7 @@ import path from "path";
 export default defineConfig({
   plugins: [
     react(),
-    // legacy({ // <-- 第 2 处：移除 legacy 插件的相关代码
+    // legacy({ // <-- 第 2 处：移除 legacy 插件相关的代码
     //   targets: ['defaults', 'not IE 11']
     // })
   ],
