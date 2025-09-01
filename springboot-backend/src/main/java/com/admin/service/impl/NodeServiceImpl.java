@@ -339,7 +339,7 @@ public class NodeServiceImpl extends ServiceImpl<NodeMapper, Node> implements No
 
         StringBuilder command = new StringBuilder();
         
-        // 第一部分：下载安装脚本  
+        // 第一部分：下载节点安装脚本  
         command.append("curl -L https://raw.githubusercontent.com/Eziweac/Eziline/refs/heads/main/install.sh")
                .append(" -o ./install.sh && chmod +x ./install.sh && ");
         
@@ -435,4 +435,5 @@ public class NodeServiceImpl extends ServiceImpl<NodeMapper, Node> implements No
     }
 
 }
+
 
